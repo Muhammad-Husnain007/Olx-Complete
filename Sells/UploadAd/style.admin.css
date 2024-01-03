@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.adminScreen-mainDiv {
+    width: 100%;
+    height: 102vh;
+    display: flex;
+
+}
+
+.sidebar {
+    width: 25%;
+    height: 100vh;
+    box-shadow: 2px 2px 15px rgb(201, 215, 227);
+    /* background-color: rgb(201, 215, 227); */
+
+}
+
+.dashboard {
+    width: 75%;
+    height: 100vh;
+    /* background-color: green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.see-edit {
+    width: 80%;
+    height: 270px;
+    /* background-color: rgb(201, 215, 227); */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+
+}
+.sidebarUl{
+    width: 400px;
+    position: relative;
+    left: -100px;
+    /* background-color: aqua; */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.sidebarUl li{
+    font-size: 20px;
+    width: 295px;
+    height: 60px;
+    box-shadow: 2px 2px 12px rgb(201, 215, 227);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 45px;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+.dashboardHead{
+    font-size: 20px;
+    width: 295px;
+    height: 60px;
+    box-shadow: 2px 2px 12px rgb(201, 215, 227);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -40px;
+    font-weight: bold;
+    border-radius: 5px;
+
+}
+.add-delete {
+    width: 80%;
+    height: 270px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.dashboard-card {
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgb(201, 215, 227);
+    /* background-color: rgb(201, 215, 227); */
+
+}
+
+.dashboard-card span {
+    font-size: 24px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+.paragraph{
+    line-height: 20px;
+    position: relative;
+    top: 30px;
+    left: 20px;
+    font-size: 14px;
+}
+.menue3dot1{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    left: 130px;
+    top: 20px;
+}
+.menue3dot2{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    left: 100px;
+    top: 20px;
+}
+.likeUnlike1{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    left: 250px;
+    top: 80px;
+}
+.likeUnlike2{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    left: 250px;
+    top: 80px;
+}
+.likeUnlike3{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    left: 250px;
+    top: 60px;
+}
+.likeUnlike4{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    left: 250px;
+    top: 80px;
+}
